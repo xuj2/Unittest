@@ -11,6 +11,9 @@ class TestCase(unittest.TestCase):
 	def test3(self):
 		self.assertFalse("A12345678")
 
+	def test4(self):
+		self.assertFalse("a12345678")
+
 
 if __name__ == '__main__':
 	unittest.main()
