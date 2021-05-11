@@ -8,6 +8,9 @@ class TestCase(unittest.TestCase):
 	def test2(self):
 		self.assertFalse("1234567")
 
+	def test3(self):
+		self.assertFalse("A12345678")
+
 
 if __name__ == '__main__':
 	unittest.main()
